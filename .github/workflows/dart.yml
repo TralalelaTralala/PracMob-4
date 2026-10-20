@@ -1,0 +1,25 @@
+name: Dart checks
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dart-lang/setup-dart@v1
+        with:
+          sdk: stable
+      - run: dart pub get
+      - run: dart format --output=none --set-exit-if-changed bin lib test
+      - run: dart analyze
+      - run: dart run test/models_test.dart
+      - run: dart run test/utils_test.dart
+      - run: dart test --coverage=coverage
+      - run: dart run coverage:format_coverage --lcov --in=coverage --out=coverage/lcov.info --packages=.dart_tool/package_config.json --report-on=lib
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dart-coverage
+          path: coverage/lcov.info
