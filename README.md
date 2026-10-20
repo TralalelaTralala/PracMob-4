@@ -77,7 +77,7 @@ dart test --coverage=coverage
 
 ## Публікація на GitHub
 
-Публічний репозиторій має називатися `PracMob4`. Для профілю GitHub `SnoxJ` його адреса буде `https://github.com/SnoxJ/PracMob4`. Після створення порожнього public repo виконайте в корені проєкту:
+Публічний репозиторій має називатися `PracMob4`. Для підключеного профілю GitHub його адреса буде `https://github.com/TralalelaTralala/PracMob4`. Після створення порожнього public repo виконайте в корені проєкту:
 
 ```powershell
 git push -u origin main
