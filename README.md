@@ -64,6 +64,17 @@ dart test --coverage=coverage
 
 Команди для лічильника покриття наведені у `docs/quality.md`. Результат бенчмарку залежить від комп'ютера, тому зберігається як фактичний вивід запуску, а не як очікувана константа.
 
+## Докази запуску
+
+У `evidence/` є збережений вивід усіх п'яти програм і перевірок якості, а в `evidence/screenshots/` — читабельні PNG-версії цих результатів. Зображення відтворені зі збережених stdout-транскриптів скриптом `scripts/render_evidence.ps1`; це оформлені знімки виводу, а не сирі знімки екрана Windows.
+
+- [Task 1 — Variables & Types](evidence/screenshots/task1_variables.png)
+- [Task 2 — Functions](evidence/screenshots/task2_functions.png)
+- [Task 3 — OOP University System](evidence/screenshots/task3_classes.png)
+- [Task 4 — Collections & Data](evidence/screenshots/task4_collections.png)
+- [Task 5 — Async Processing](evidence/screenshots/task5_async.png)
+- [Analyzer and test results](evidence/screenshots/quality_checks.png)
+
 ## Публікація на GitHub
 
 Публічний репозиторій має називатися `PracMob4`. Для профілю GitHub `SnoxJ` його адреса буде `https://github.com/SnoxJ/PracMob4`. Після створення порожнього public repo виконайте в корені проєкту:
