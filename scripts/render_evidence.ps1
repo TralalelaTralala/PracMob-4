@@ -170,4 +170,4 @@ $quality = @(
     'PS C:\PracMob4> dart run test/utils_test.dart',
     (Get-Content (Join-Path $evidenceRoot 'utils_tests.txt') -Raw).Trim()
 ) -join "`n"
-New-TerminalEvidencePng -Path (Join-Path $screenshotsRoot 'quality_checks.png') -Title 'Quality checks  /  Analyzer & tests' -Command 'dart analyze && dart run test/...' -Output $quality -Footer 'Rendered from saved analyzer and test transcripts; not a raw desktop capture.'
+New-TerminalEvidencePng -Path (Join-Path $screenshotsRoot 'quality_checks.png') -Title 'Quality checks  /  Analyzer & tests' -Command 'dart analyze' -Output $quality -Footer 'Rendered from saved analyzer and test transcripts; not a raw desktop capture.'
