@@ -1,0 +1,69 @@
+# PracMob4
+
+Навчальний консольний проєкт на Dart: базові типи й функції, університетська OOP-система, колекції та CSV-аналіз, асинхронна робота з JSON-файлами.
+
+## Вимоги
+
+- Dart SDK 3.0.0 або новіший
+- Git (необов'язково для запуску програм)
+
+Перевірити Dart у PowerShell:
+
+```powershell
+dart --version
+```
+
+Якщо команда `dart` не розпізнається, додайте каталог `...\dart-sdk\bin` до змінної середовища `Path`, відкрийте новий термінал і повторіть команду. У Flutter SDK Dart зазвичай лежить у `flutter\bin\cache\dart-sdk\bin`.
+
+## Встановлення та запуск
+
+У корені `PracMob4`:
+
+```powershell
+dart pub get
+dart run bin/task1_variables.dart
+dart run bin/task2_functions.dart
+dart run bin/task3_classes.dart
+dart run bin/task4_collections.dart
+dart run bin/task5_async.dart
+```
+
+Програми читають приклади з `data/` відносно кореня проєкту. Запускайте команди саме з кореня, як показано вище.
+
+## Структура
+
+```text
+PracMob4/
+├── bin/                         # П'ять незалежних консольних демонстрацій
+├── data/                        # CSV і три JSON-файли для асинхронного завдання
+├── docs/                         # UML-діаграма та короткі звіти
+├── lib/models/                   # Student, Course, Person, Professor, University
+├── lib/utils/                    # Калькулятор, обробка тексту, даних і CSV
+├── test/                         # Тести моделей та утиліт
+├── analysis_options.yaml
+└── pubspec.yaml
+```
+
+## Завдання
+
+1. `task1_variables.dart`: числа, рядки, логіка, колекції, null safety та required-параметр.
+2. `task2_functions.dart`: функції з різними параметрами, функції вищого порядку, замикання, рекурсія; калькулятор і текстовий аналізатор.
+3. `task3_classes.dart`: успадкування, поліморфізм, студенти/курси/викладачі, передумови, CRUD, оцінки й статистика.
+4. `task4_collections.dart`: List/Set/Map, перетворення та групування; аналіз студентів із `data/students.csv`.
+5. `task5_async.dart`: паралельне читання трьох JSON-файлів, потік студентів, обробка, запис звіту й порівняння послідовного та паралельного читання.
+
+## Перевірка якості
+
+```powershell
+dart format --set-exit-if-changed bin lib test
+dart analyze
+dart run test/models_test.dart
+dart run test/utils_test.dart
+dart run test --coverage=coverage
+```
+
+Команди для лічильника покриття наведені у `docs/quality.md`. Результат бенчмарку залежить від комп'ютера, тому зберігається як фактичний вивід запуску, а не як очікувана константа.
+
+## Публікація на GitHub
+
+Створіть на GitHub публічний репозиторій з назвою `PracMob4`, потім у терміналі з кореня проєкту виконайте команди, які GitHub покаже для вже створеного репозиторію. Не додавайте токени, паролі чи приватні ключі до Git.
