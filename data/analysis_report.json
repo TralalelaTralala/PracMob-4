@@ -1,0 +1,38 @@
+{
+  "studentCount": 5,
+  "averageGpa": 86.4,
+  "studentsByYear": {
+    "2023": 2,
+    "2022": 2,
+    "2024": 1
+  },
+  "topStudents": [
+    {
+      "id": "s-003",
+      "name": "Iryna Melnyk",
+      "gpa": 96.0,
+      "year": 2024
+    },
+    {
+      "id": "s-001",
+      "name": "Olena Bondar",
+      "gpa": 92.5,
+      "year": 2023
+    },
+    {
+      "id": "s-005",
+      "name": "Kateryna Marchenko",
+      "gpa": 88.0,
+      "year": 2022
+    }
+  ],
+  "uniqueSkills": [
+    "Dart",
+    "Data analysis",
+    "Excel",
+    "Git",
+    "Python",
+    "SQL",
+    "Testing"
+  ]
+}
