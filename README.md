@@ -59,7 +59,7 @@ dart format --set-exit-if-changed bin lib test
 dart analyze
 dart run test/models_test.dart
 dart run test/utils_test.dart
-dart run test --coverage=coverage
+dart test --coverage=coverage
 ```
 
 Команди для лічильника покриття наведені у `docs/quality.md`. Результат бенчмарку залежить від комп'ютера, тому зберігається як фактичний вивід запуску, а не як очікувана константа.
