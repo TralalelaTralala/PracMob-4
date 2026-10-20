@@ -1,0 +1,12 @@
+=== Dart Functions Demo ===
+
+Basic: sum=12, average=90.0
+Named/optional: Ira O. Bondar
+Advanced: fibonacci(8)=21, factorial(6)=720
+Functional: even values doubled=[4, 8, 12], sum=21, closure=15
+
+=== Calculator & Text Analyzer ===
+12 + 8 = 20.0
+12 / 8 = 1.5
+2^8 = 256.0
+Text analysis: {characters: 42, charactersWithoutWhitespace: 36, words: 7, uniqueWords: 6, lines: 1, wordFrequencies: {dart: 2, clear: 1, data: 1, is: 1, makes: 1, productive: 1}}

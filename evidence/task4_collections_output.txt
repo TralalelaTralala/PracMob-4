@@ -1,0 +1,15 @@
+=== Dart Collections & Data Processing Demo ===
+
+List: sorted=[64, 73, 85, 91, 98], >=80=[91, 85, 98], +2=[75, 93, 87, 66, 100], sum=411
+Even values via shared processor: [64, 98]
+
+Set: union={Dart, SQL, Git, Python}, intersection={Dart, SQL}, difference={Git}
+
+Map: grades={Dart: 92.0, SQL: 84.0, Git: 90.0}; average=88.66666666666667
+Grouped scores: {pass with distinction: [92, 88], pass: [76, 69]}
+
+Nested collection sorted by credits: [{name: Olena, credits: 24}, {name: Maksym, credits: 18}]
+Unique skills example: {Dart}
+
+CSV report (5 students): {"studentCount":5,"averageGpa":86.4,"studentsByYear":{"2023":2,"2022":2,"2024":1},"topStudents":[{"id":"s-003","name":"Iryna Melnyk","gpa":96.0,"year":2024},{"id":"s-001","name":"Olena Bondar","gpa":92.5,"year":2023},{"id":"s-005","name":"Kateryna Marchenko","gpa":88.0,"year":2022}],"uniqueSkills":["Dart","Data analysis","Excel","Git","Python","SQL","Testing"]}
+Saved data/analysis_report.json

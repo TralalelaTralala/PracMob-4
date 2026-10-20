@@ -1,0 +1,21 @@
+=== Dart Variables & Types Demo ===
+
+Numbers: students=24, tuition=1250.5, total=30012.0
+Operations: 30, 625.25, 4
+Conversion: 30012.00 -> 30012.0
+
+Strings: Olena Marchenko (15 characters)
+Welcome to PracMob4.
+The Dart language strings support multiple lines.
+Trim/uppercase: STUDENT
+Escapes: first line
+second line	(indented)
+
+Booleans: passed=true, excellent=false
+Conditional: eligible for credit
+
+List: [72, 91, 84, 91] -> even [72, 84]
+Set: {72, 91, 84}; max=91
+Map: {name: Olena, year: 2025, active: true}
+
+Null safety: No note provided; initialized with late

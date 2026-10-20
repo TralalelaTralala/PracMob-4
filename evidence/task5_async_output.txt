@@ -1,0 +1,12 @@
+=== Dart Async Programming Demo ===
+
+Futures (parallel requests): [{"id":"s-001","status":"loaded"}, {"id":"s-002","status":"loaded"}, {"id":"s-003","status":"loaded"}]
+Handled async error: Bad state: simulated network issue
+
+Stream loaded 5 students: [Olena Bondar, Maksym Shevchenko, Iryna Melnyk, Taras Koval, Kateryna Marchenko]
+
+File I/O: read 5 records from 3 JSON files.
+Sequential read: 4041µs; parallel read: 2560µs.
+Sequential and parallel results match: true
+Saved data/async_report.json
+Stream transform (sample values >= 50): [62, 65, 66, 88, 94]

@@ -1,0 +1,9 @@
+=== University Management System Demo ===
+People: Professor Ihor Koval teaches [dart-1, oop-2]
+Students:
+  Student(s1, Olena Bondar, age: 22, GPA: 90.0); passed=[dart-1, oop-2]
+  Student(s2, Maksym Shevchenko, age: 23, GPA: 81.0); passed=[dart-1]
+Students in dart-1: 2
+Available courses for s2: [Object-Oriented Dart]
+Statistics: {university: PracMob4 University, studentCount: 2, professorCount: 1, courseCount: 2, averageGpa: 85.5, courseEnrollments: {dart-1: 2, oop-2: 1}, topStudents: [Olena Bondar, Maksym Shevchenko], averageGradesByCourse: {dart-1: 86.5, oop-2: 88.0}, uniqueSkills: [Dart, Git, SQL], studentsByYear: {2023: 1, 2022: 1}, studentsByGpa: [{id: s1, name: Olena Bondar, gpa: 90.0, year: 2023}, {id: s2, name: Maksym Shevchenko, gpa: 81.0, year: 2022}]}
+JSON round-trip: Student(s1, Olena Bondar, age: 22, GPA: 90.0)
