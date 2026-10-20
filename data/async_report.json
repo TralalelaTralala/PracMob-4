@@ -1,0 +1,29 @@
+{
+  "studentCount": 5,
+  "averageGpa": 86.05,
+  "topStudents": [
+    {
+      "id": "s-003",
+      "name": "Iryna Melnyk",
+      "gpa": 95.0,
+      "year": 2024
+    },
+    {
+      "id": "s-001",
+      "name": "Olena Bondar",
+      "gpa": 90.25,
+      "year": 2023
+    },
+    {
+      "id": "s-005",
+      "name": "Kateryna Marchenko",
+      "gpa": 89.5,
+      "year": 2022
+    }
+  ],
+  "timingsMicroseconds": {
+    "sequential": 4041,
+    "parallel": 2560
+  },
+  "timingNote": "Small local files may be faster either way; timings are machine-dependent."
+}
