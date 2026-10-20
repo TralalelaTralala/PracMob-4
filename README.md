@@ -66,18 +66,20 @@ dart test --coverage=coverage
 
 ## Докази запуску
 
-У `evidence/` є збережений вивід усіх п'яти програм і перевірок якості, а в `evidence/screenshots/` — читабельні PNG-версії цих результатів. Зображення відтворені зі збережених stdout-транскриптів скриптом `scripts/render_evidence.ps1`; це оформлені знімки виводу, а не сирі знімки екрана Windows.
+У `evidence/` збережені текстові результати програм і перевірок. `task1_variables.png`–`task5_async.png` — справжні знімки вікна PowerShell під час запуску п'яти програм. `quality_checks.png` поки що оформлений зі збережених логів; справжній знімок перевірок можна додати окремо.
 
 - [Task 1 — Variables & Types](evidence/screenshots/task1_variables.png)
 - [Task 2 — Functions](evidence/screenshots/task2_functions.png)
 - [Task 3 — OOP University System](evidence/screenshots/task3_classes.png)
 - [Task 4 — Collections & Data](evidence/screenshots/task4_collections.png)
 - [Task 5 — Async Processing](evidence/screenshots/task5_async.png)
-- [Analyzer and test results](evidence/screenshots/quality_checks.png)
+- [Analyzer and test results (rendered from logs)](evidence/screenshots/quality_checks.png)
 
 ## Публікація на GitHub
 
-Публічний репозиторій має називатися `PracMob4`. Для підключеного профілю GitHub його адреса буде `https://github.com/TralalelaTralala/PracMob4`. Після створення порожнього public repo виконайте в корені проєкту:
+Публічний репозиторій: [TralalelaTralala/PracMob-4](https://github.com/TralalelaTralala/PracMob-4).
+
+Щоб відправити наступні зміни з кореня проєкту:
 
 ```powershell
 git push -u origin main

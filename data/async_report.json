@@ -22,8 +22,8 @@
     }
   ],
   "timingsMicroseconds": {
-    "sequential": 4041,
-    "parallel": 2560
+    "sequential": 2272,
+    "parallel": 1165
   },
   "timingNote": "Small local files may be faster either way; timings are machine-dependent."
 }

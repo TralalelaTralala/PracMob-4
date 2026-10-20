@@ -145,21 +145,6 @@ function New-TerminalEvidencePng {
     }
 }
 
-$tasks = @(
-    @{ Name = 'task1_variables'; Title = 'Task 1  /  Variables & Types'; Command = 'dart run bin/task1_variables.dart' },
-    @{ Name = 'task2_functions'; Title = 'Task 2  /  Functions'; Command = 'dart run bin/task2_functions.dart' },
-    @{ Name = 'task3_classes'; Title = 'Task 3  /  OOP University System'; Command = 'dart run bin/task3_classes.dart' },
-    @{ Name = 'task4_collections'; Title = 'Task 4  /  Collections & Data'; Command = 'dart run bin/task4_collections.dart' },
-    @{ Name = 'task5_async'; Title = 'Task 5  /  Async Processing'; Command = 'dart run bin/task5_async.dart' }
-)
-
-foreach ($task in $tasks) {
-    $transcriptPath = Join-Path $evidenceRoot "$($task.Name)_output.txt"
-    $transcript = [System.IO.File]::ReadAllText($transcriptPath, [System.Text.Encoding]::UTF8).TrimEnd([char[]]@("`r", "`n"))
-    $imagePath = Join-Path $screenshotsRoot "$($task.Name).png"
-    New-TerminalEvidencePng -Path $imagePath -Title $task.Title -Command $task.Command -Output $transcript -Footer 'Rendered from the saved stdout transcript; not a raw desktop capture.'
-}
-
 $quality = @(
     'PS C:\PracMob4> dart analyze',
     (Get-Content (Join-Path $evidenceRoot 'analysis.txt') -Raw).Trim(),
