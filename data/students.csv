@@ -1,0 +1,6 @@
+id,firstName,lastName,birthDate,enrollmentYear,gpa,courses,skills
+s-001,Olena,Bondar,2004-02-08,2023,92.5,dart-1|oop-2,Dart|SQL|Git
+s-002,Maksym,Shevchenko,2003-09-20,2022,81.0,dart-1,Python|Dart
+s-003,Iryna,Melnyk,2005-06-14,2024,96.0,dart-1|data-1,SQL|Data analysis|Dart
+s-004,Taras,Koval,2004-12-03,2023,74.5,data-1,Git|Excel|SQL
+s-005,Kateryna,Marchenko,2003-04-27,2022,88.0,dart-1|oop-2,Testing|Dart
