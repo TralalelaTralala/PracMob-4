@@ -46,7 +46,3 @@ dart run test/utils_test.dart
 - [Завдання 3 — університетська система](evidence/screenshots/task3_classes.png)
 - [Завдання 4 — колекції та дані](evidence/screenshots/task4_collections.png)
 - [Завдання 5 — асинхронні операції](evidence/screenshots/task5_async.png)
-
-## Репозиторій
-
-[PracMob-4 на GitHub](https://github.com/TralalelaTralala/PracMob-4)
