@@ -1,0 +1,14 @@
+name: prac_mob4
+description: Dart fundamentals, OOP, collections, CSV analysis, and asynchronous file processing.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  path: ^1.9.0
+
+dev_dependencies:
+  lints: ^6.0.0
+  test: ^1.25.6
