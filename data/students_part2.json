@@ -1,0 +1,4 @@
+[
+  {"id":"s-003","firstName":"Iryna","lastName":"Melnyk","birthDate":"2005-06-14T00:00:00.000","enrollmentYear":2024,"enrolledCourses":["dart-1","data-1"],"grades":{"dart-1":96.0,"data-1":94.0},"skills":["SQL","Data analysis","Dart"]},
+  {"id":"s-004","firstName":"Taras","lastName":"Koval","birthDate":"2004-12-03T00:00:00.000","enrollmentYear":2023,"enrolledCourses":["data-1"],"grades":{"data-1":74.5},"skills":["Git","Excel","SQL"]}
+]
